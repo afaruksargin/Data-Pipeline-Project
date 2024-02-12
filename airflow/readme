@@ -1,9 +1,0 @@
-curl -LfO "https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml"
-
-mkdir ./dags ./plugins ./logs
-
-echo -e "AIRFLOW_UID=$(id -u)=\nAIRFLOW_GID=0" > .env
-
-docker-compose airflow-init
-
-docker-compose up
