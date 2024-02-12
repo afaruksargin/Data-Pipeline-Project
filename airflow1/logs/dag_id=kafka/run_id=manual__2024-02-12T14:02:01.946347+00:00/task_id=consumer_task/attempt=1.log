@@ -1,0 +1,24 @@
+[2024-02-12T14:02:08.065+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka.consumer_task manual__2024-02-12T14:02:01.946347+00:00 [queued]>
+[2024-02-12T14:02:08.078+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka.consumer_task manual__2024-02-12T14:02:01.946347+00:00 [queued]>
+[2024-02-12T14:02:08.078+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-02-12T14:02:08.095+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): consumer_task> on 2024-02-12 14:02:01.946347+00:00
+[2024-02-12T14:02:08.104+0000] {standard_task_runner.py:60} INFO - Started process 455 to run task
+[2024-02-12T14:02:08.108+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'kafka', 'consumer_task', 'manual__2024-02-12T14:02:01.946347+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/consumer_dag.py', '--cfg-path', '/tmp/tmp076h2w31']
+[2024-02-12T14:02:08.111+0000] {standard_task_runner.py:88} INFO - Job 13: Subtask consumer_task
+[2024-02-12T14:02:08.168+0000] {task_command.py:423} INFO - Running <TaskInstance: kafka.consumer_task manual__2024-02-12T14:02:01.946347+00:00 [running]> on host 091381c190f8
+[2024-02-12T14:02:08.255+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kafka' AIRFLOW_CTX_TASK_ID='consumer_task' AIRFLOW_CTX_EXECUTION_DATE='2024-02-12T14:02:01.946347+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-12T14:02:01.946347+00:00'
+[2024-02-12T14:02:08.257+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/baserow_add_data.py", line 26, in main
+    with open("./data/vgsales.csv", "r", newline='', encoding='utf-8') as csv_file:
+FileNotFoundError: [Errno 2] No such file or directory: './data/vgsales.csv'
+[2024-02-12T14:02:08.265+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=kafka, task_id=consumer_task, execution_date=20240212T140201, start_date=20240212T140208, end_date=20240212T140208
+[2024-02-12T14:02:08.276+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 13 for task consumer_task ([Errno 2] No such file or directory: './data/vgsales.csv'; 455)
+[2024-02-12T14:02:08.321+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-12T14:02:08.378+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

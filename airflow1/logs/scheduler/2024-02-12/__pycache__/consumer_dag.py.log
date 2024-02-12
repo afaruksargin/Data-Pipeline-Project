@@ -1,0 +1,119 @@
+[2024-02-12T13:40:18.195+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:18.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:40:18.197+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:40:18.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:18.200+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:40:18.199+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/__pycache__/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/consumer_dag.py", line 14, in <module>
+    start_date=days_ago(1),
+NameError: name 'days_ago' is not defined
+[2024-02-12T13:40:18.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:18.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.025 seconds
+[2024-02-12T13:40:29.350+0000] {processor.py:161} INFO - Started process (PID=619) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:29.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:40:29.352+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:40:29.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:29.355+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:40:29.354+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/__pycache__/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/consumer_dag.py", line 4
+    from airflow.
+                ^
+SyntaxError: invalid syntax
+[2024-02-12T13:40:29.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:29.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.027 seconds
+[2024-02-12T13:40:59.459+0000] {processor.py:161} INFO - Started process (PID=672) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:59.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:40:59.461+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:40:59.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:59.464+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:40:59.463+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/__pycache__/consumer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/__pycache__/consumer_dag.py", line 4
+    from airflow.
+                ^
+SyntaxError: invalid syntax
+[2024-02-12T13:40:59.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:40:59.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.031 seconds
+[2024-02-12T13:41:07.909+0000] {processor.py:161} INFO - Started process (PID=697) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:41:07.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:41:07.913+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:41:07.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:41:07.914+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:41:07.914+0000] {dagbag.py:325} INFO - File /opt/airflow/dags/__pycache__/consumer_dag.py assumed to contain no DAGs. Skipping.
+[2024-02-12T13:41:07.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:41:07.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.028 seconds
+[2024-02-12T13:41:38.338+0000] {processor.py:161} INFO - Started process (PID=754) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:41:38.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:41:38.341+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:41:38.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:41:38.343+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:41:38.343+0000] {dagbag.py:325} INFO - File /opt/airflow/dags/__pycache__/consumer_dag.py assumed to contain no DAGs. Skipping.
+[2024-02-12T13:41:38.344+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:41:38.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.042 seconds
+[2024-02-12T13:42:08.606+0000] {processor.py:161} INFO - Started process (PID=810) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:08.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:42:08.608+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:08.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:08.609+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:08.609+0000] {dagbag.py:325} INFO - File /opt/airflow/dags/__pycache__/consumer_dag.py assumed to contain no DAGs. Skipping.
+[2024-02-12T13:42:08.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:08.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.019 seconds
+[2024-02-12T13:42:21.770+0000] {processor.py:161} INFO - Started process (PID=813) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:21.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:42:21.781+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:21.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:21.797+0000] {processor.py:840} INFO - DAG(s) 'kafka' retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:21.914+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:21.913+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:kafka
+[2024-02-12T13:42:21.924+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:21.924+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:kafka
+[2024-02-12T13:42:21.931+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:21.930+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:kafka
+[2024-02-12T13:42:21.931+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:21.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T13:42:21.942+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:21.941+0000] {dag.py:3058} INFO - Creating ORM DAG for kafka
+[2024-02-12T13:42:21.951+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:21.951+0000] {dag.py:3823} INFO - Setting next_dagrun for kafka to 2024-02-11 00:00:00+00:00, run_after=2024-02-12 00:00:00+00:00
+[2024-02-12T13:42:21.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.208 seconds
+[2024-02-12T13:42:52.362+0000] {processor.py:161} INFO - Started process (PID=869) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:52.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:42:52.373+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:52.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:52.387+0000] {processor.py:840} INFO - DAG(s) 'kafka' retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:42:52.408+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:52.408+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T13:42:52.433+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:42:52.432+0000] {dag.py:3823} INFO - Setting next_dagrun for kafka to 2024-02-12 00:00:00+00:00, run_after=2024-02-13 00:00:00+00:00
+[2024-02-12T13:42:52.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.098 seconds
+[2024-02-12T13:43:22.557+0000] {processor.py:161} INFO - Started process (PID=925) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:43:22.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:43:22.560+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:43:22.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:43:22.568+0000] {processor.py:840} INFO - DAG(s) 'kafka' retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:43:22.588+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:43:22.587+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T13:43:22.613+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:43:22.613+0000] {dag.py:3823} INFO - Setting next_dagrun for kafka to 2024-02-12 00:00:00+00:00, run_after=2024-02-13 00:00:00+00:00
+[2024-02-12T13:43:22.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.076 seconds
+[2024-02-12T13:43:53.000+0000] {processor.py:161} INFO - Started process (PID=981) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:43:53.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:43:53.009+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:43:53.009+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:43:53.029+0000] {processor.py:840} INFO - DAG(s) 'kafka' retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:43:53.074+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:43:53.073+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T13:43:53.124+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:43:53.123+0000] {dag.py:3823} INFO - Setting next_dagrun for kafka to 2024-02-12 00:00:00+00:00, run_after=2024-02-13 00:00:00+00:00
+[2024-02-12T13:43:53.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.169 seconds
+[2024-02-12T13:44:23.390+0000] {processor.py:161} INFO - Started process (PID=1037) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:44:23.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:44:23.394+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:44:23.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:44:23.401+0000] {processor.py:840} INFO - DAG(s) 'kafka' retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:44:23.422+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:44:23.422+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T13:44:23.444+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:44:23.444+0000] {dag.py:3823} INFO - Setting next_dagrun for kafka to 2024-02-12 00:00:00+00:00, run_after=2024-02-13 00:00:00+00:00
+[2024-02-12T13:44:23.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.075 seconds
+[2024-02-12T13:44:54.037+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:44:54.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:44:54.041+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:44:54.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:44:54.047+0000] {processor.py:840} INFO - DAG(s) 'kafka' retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:44:54.064+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:44:54.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T13:44:54.088+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:44:54.088+0000] {dag.py:3823} INFO - Setting next_dagrun for kafka to 2024-02-12 00:00:00+00:00, run_after=2024-02-13 00:00:00+00:00
+[2024-02-12T13:44:54.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.071 seconds
+[2024-02-12T13:45:24.563+0000] {processor.py:161} INFO - Started process (PID=1149) to work on /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:45:24.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/__pycache__/consumer_dag.py for tasks to queue
+[2024-02-12T13:45:24.572+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:45:24.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:45:24.588+0000] {processor.py:840} INFO - DAG(s) 'kafka' retrieved from /opt/airflow/dags/__pycache__/consumer_dag.py
+[2024-02-12T13:45:24.608+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:45:24.608+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-12T13:45:24.636+0000] {logging_mixin.py:188} INFO - [2024-02-12T13:45:24.636+0000] {dag.py:3823} INFO - Setting next_dagrun for kafka to 2024-02-12 00:00:00+00:00, run_after=2024-02-13 00:00:00+00:00
+[2024-02-12T13:45:24.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/__pycache__/consumer_dag.py took 0.102 seconds
