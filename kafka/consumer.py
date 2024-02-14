@@ -32,33 +32,37 @@ def consume_and_store_messages(bootstrap_servers, topic_name, group_id, database
         for message in consumer:
             print(f"Received message: {message.value}")
             data_dict = json.loads(message.value)
-
-            # Postgres'e mesajı ekleme
-            cursor.execute(
-                """
-                INSERT INTO game_sales (rank, name, platform, year, genre, publisher, na_sales, eu_sales, jp_sales, other_sales, global_sales)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                """,
-                (
-                    data_dict.get("Rank", ""),
-                    data_dict.get("Name", ""),
-                    data_dict.get("Platform", ""),
-                    data_dict.get("Year", ""),
-                    data_dict.get("Genre", ""),
-                    data_dict.get("Publisher", ""),
-                    data_dict.get("NA_Sales", ""),
-                    data_dict.get("EU_Sales", ""),
-                    data_dict.get("JP_Sales", ""),
-                    data_dict.get("Other_Sales", ""),
-                    data_dict.get("Global_Sales", "")
+            try:
+                # Postgres'e mesajı ekleme
+                cursor.execute(
+                    """
+                    INSERT INTO game_sales (rank, name, platform, year, genre, publisher, na_sales, eu_sales, jp_sales, other_sales, global_sales)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    """,
+                    (
+                        data_dict.get("Rank") or None,
+                        data_dict.get("Name") or None,
+                        data_dict.get("Platform") or None,
+                        data_dict.get("Year") or None,
+                        data_dict.get("Genre") or None,
+                        data_dict.get("Publisher") or None,
+                        data_dict.get("NA_Sales") or None,
+                        data_dict.get("EU_Sales") or None,
+                        data_dict.get("JP_Sales") or None,
+                        data_dict.get("Other_Sales") or None,
+                        data_dict.get("Global_Sales") or None
+                    )
                 )
-            )
+            except psycopg2.errors.InvalidTextRepresentation as e:
+                print("Invalid text representation error:", e)
+                continue
 
             # Değişiklikleri kaydet
             conn.commit()
 
     except KeyboardInterrupt:
         print("Kullanıcı tarafından kapatıldı.")
+    
 
     finally:
         # Cursor ve bağlantıyı kapat
@@ -73,7 +77,7 @@ def main():
     topic_name = 'game-sales'
 
     # Consumer group adı
-    group_id = 'my_consumer_group'
+    group_id = 'my-group'
 
     # Postgres veritabanı bilgileri
     database_info = {

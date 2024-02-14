@@ -66,7 +66,7 @@ def main():
             writer.writerows(rows)
 
 with DAG(
-    dag_id = "baserowdata",
+    dag_id = "upload_csv_to_kafka",
     description='Baserow Data DAG',
     schedule_interval='*/10 * * * *',
     start_date=datetime(2024, 2, 15, 15, 40),
