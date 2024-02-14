@@ -21,7 +21,10 @@ Bu proje, Apache Airflow kullanarak bir veri boru hattı oluşturmak için Docke
 1. Docker Compose kullanarak Airflow'u başlatın:
 
     ```bash
-    docker-compose up -d
+    docker-compose -f airflow1/ up -d
+    ```
+     ```bash
+     docker-compose -f kafka/docker-compose-outher.yml  up -d
     ```
 
 2. Tarayıcınızda Airflow arayüzüne gidin: [http://localhost:8080](http://localhost:8080)
