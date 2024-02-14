@@ -1,5 +1,7 @@
 # DataProjectPipeline
 
+![Hareketli Resim](/home/user/İndirilenler/DAG.gif)
+
 # Airflow Kafka PostgreSQL Pipeline
 
 Bu proje, Apache Airflow kullanarak bir veri boru hattı oluşturmak için Docker konteynerleri kullanır. Bu boru hattı, belirli aralıklarla bir CSV dosyasından veri okuyacak, bu verileri Kafka'ya yazacak ve ardından PostgreSQL veritabanına aktaracaktır.
