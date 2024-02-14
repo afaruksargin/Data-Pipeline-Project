@@ -1,6 +1,6 @@
 # DataProjectPipeline
 
-!![DAG](https://github.com/afaruksargin/DataProjectPipeline/assets/114520791/985bce13-0f17-4a07-8680-521d6ff023fb)
+![DAG](https://github.com/afaruksargin/DataProjectPipeline/assets/114520791/985bce13-0f17-4a07-8680-521d6ff023fb)
 
 # Airflow Kafka PostgreSQL Pipeline
 
