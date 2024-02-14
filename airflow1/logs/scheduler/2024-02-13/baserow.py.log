@@ -1,0 +1,397 @@
+[2024-02-13T12:15:50.724+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:15:50.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:15:50.725+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:15:50.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:15:50.734+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:15:50.835+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:15:50.835+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:15:50.866+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:15:50.865+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-12 04:40:00+00:00, run_after=2024-02-12 04:50:00+00:00
+[2024-02-13T12:15:50.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.174 seconds
+[2024-02-13T12:16:21.217+0000] {processor.py:161} INFO - Started process (PID=648) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:21.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:16:21.220+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:21.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:21.229+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:21.257+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:21.257+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:16:21.286+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:21.286+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-12 04:40:00+00:00, run_after=2024-02-12 04:50:00+00:00
+[2024-02-13T12:16:21.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.089 seconds
+[2024-02-13T12:16:31.647+0000] {processor.py:161} INFO - Started process (PID=661) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:31.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:16:31.652+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:31.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:31.671+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:31.718+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:31.718+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:16:31.767+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:31.767+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-12 04:40:00+00:00, run_after=2024-02-12 04:50:00+00:00
+[2024-02-13T12:16:31.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.164 seconds
+[2024-02-13T12:16:49.196+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:49.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:16:49.201+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:49.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:49.220+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:16:49.241+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:49.241+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:16:49.270+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:16:49.270+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-12 04:40:00+00:00, run_after=2024-02-12 04:50:00+00:00
+[2024-02-13T12:16:49.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.107 seconds
+[2024-02-13T12:17:19.945+0000] {processor.py:161} INFO - Started process (PID=765) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:17:19.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:17:19.950+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:17:19.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:17:20.007+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:17:20.082+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:17:20.082+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:17:20.187+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:17:20.186+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-12 06:00:00+00:00, run_after=2024-02-12 06:10:00+00:00
+[2024-02-13T12:17:20.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.335 seconds
+[2024-02-13T12:17:50.502+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:17:50.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:17:50.507+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:17:50.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:17:50.553+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:17:50.669+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:17:50.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:17:50.741+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:17:50.741+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-12 07:10:00+00:00, run_after=2024-02-12 07:20:00+00:00
+[2024-02-13T12:17:50.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.327 seconds
+[2024-02-13T12:18:21.796+0000] {processor.py:161} INFO - Started process (PID=879) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:18:21.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:18:21.804+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:18:21.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:18:21.819+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:18:21.874+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:18:21.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:18:21.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.184 seconds
+[2024-02-13T12:18:36.339+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:18:36.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:18:36.346+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:18:36.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:18:36.430+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:18:37.217+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:18:37.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:18:37.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 1.056 seconds
+[2024-02-13T12:19:00.361+0000] {processor.py:161} INFO - Started process (PID=938) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:19:00.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:19:00.370+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:19:00.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:19:00.423+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:19:00.518+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:19:00.515+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:19:00.670+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:19:00.669+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:20:00+00:00, run_after=2024-02-15 15:30:00+00:00
+[2024-02-13T12:19:00.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.423 seconds
+[2024-02-13T12:19:30.947+0000] {processor.py:161} INFO - Started process (PID=994) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:19:30.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:19:30.951+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:19:30.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:19:30.965+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:19:31.004+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:19:31.003+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:19:31.058+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:19:31.058+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:20:00+00:00, run_after=2024-02-15 15:30:00+00:00
+[2024-02-13T12:19:31.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.152 seconds
+[2024-02-13T12:20:01.124+0000] {processor.py:161} INFO - Started process (PID=1050) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:01.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:20:01.126+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:01.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:01.135+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:01.157+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:01.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:20:01.181+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:01.181+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:20:00+00:00, run_after=2024-02-15 15:30:00+00:00
+[2024-02-13T12:20:01.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.077 seconds
+[2024-02-13T12:20:22.974+0000] {processor.py:161} INFO - Started process (PID=1102) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:22.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:20:22.976+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:22.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:22.988+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:23.141+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:23.140+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:20:23.171+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:23.171+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:20:23.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.225 seconds
+[2024-02-13T12:20:53.563+0000] {processor.py:161} INFO - Started process (PID=1159) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:53.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:20:53.565+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:53.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:53.575+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:20:53.596+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:53.596+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:20:53.625+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:20:53.625+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:20:53.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.084 seconds
+[2024-02-13T12:21:23.811+0000] {processor.py:161} INFO - Started process (PID=1216) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:21:23.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:21:23.812+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:21:23.812+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:21:23.819+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:21:23.836+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:21:23.836+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:21:23.859+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:21:23.859+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:21:23.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.067 seconds
+[2024-02-13T12:21:54.004+0000] {processor.py:161} INFO - Started process (PID=1273) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:21:54.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:21:54.005+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:21:54.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:21:54.013+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:21:54.030+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:21:54.030+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:21:54.052+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:21:54.052+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:21:54.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.068 seconds
+[2024-02-13T12:22:24.253+0000] {processor.py:161} INFO - Started process (PID=1325) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:22:24.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:22:24.255+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:22:24.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:22:24.264+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:22:24.283+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:22:24.282+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:22:24.306+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:22:24.306+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:22:24.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.074 seconds
+[2024-02-13T12:22:54.628+0000] {processor.py:161} INFO - Started process (PID=1377) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:22:54.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:22:54.631+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:22:54.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:22:54.639+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:22:54.660+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:22:54.660+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:22:54.689+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:22:54.688+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:22:54.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.081 seconds
+[2024-02-13T12:23:25.598+0000] {processor.py:161} INFO - Started process (PID=1433) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:23:25.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:23:25.602+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:23:25.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:23:25.613+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:23:25.644+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:23:25.643+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:23:25.678+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:23:25.678+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:23:25.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.114 seconds
+[2024-02-13T12:23:55.904+0000] {processor.py:161} INFO - Started process (PID=1489) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:23:55.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:23:55.911+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:23:55.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:23:55.934+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:23:55.978+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:23:55.977+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:23:56.026+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:23:56.025+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:23:56.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.170 seconds
+[2024-02-13T12:24:26.255+0000] {processor.py:161} INFO - Started process (PID=1545) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:24:26.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:24:26.258+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:24:26.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:24:26.268+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:24:26.290+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:24:26.290+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:24:26.325+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:24:26.324+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:24:26.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.108 seconds
+[2024-02-13T12:24:57.362+0000] {processor.py:161} INFO - Started process (PID=1601) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:24:57.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:24:57.368+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:24:57.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:24:57.382+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:24:57.419+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:24:57.419+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:24:57.472+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:24:57.472+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:24:57.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.153 seconds
+[2024-02-13T12:25:27.740+0000] {processor.py:161} INFO - Started process (PID=1657) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:25:27.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:25:27.743+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:25:27.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:25:27.752+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:25:27.775+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:25:27.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:25:27.802+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:25:27.802+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:25:27.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.083 seconds
+[2024-02-13T12:25:57.993+0000] {processor.py:161} INFO - Started process (PID=1713) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:25:57.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:25:57.996+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:25:57.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:25:58.010+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:25:58.031+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:25:58.031+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:25:58.056+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:25:58.055+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:25:58.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.085 seconds
+[2024-02-13T12:26:28.398+0000] {processor.py:161} INFO - Started process (PID=1769) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:26:28.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:26:28.401+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:26:28.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:26:28.408+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:26:28.432+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:26:28.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:26:28.463+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:26:28.462+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:26:28.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.085 seconds
+[2024-02-13T12:26:58.862+0000] {processor.py:161} INFO - Started process (PID=1825) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:26:58.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:26:58.867+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:26:58.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:26:58.879+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:26:58.918+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:26:58.918+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:26:58.993+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:26:58.992+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:26:59.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.170 seconds
+[2024-02-13T12:27:29.884+0000] {processor.py:161} INFO - Started process (PID=1881) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:27:29.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:27:29.888+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:27:29.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:27:29.900+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:27:29.927+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:27:29.927+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:27:29.958+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:27:29.957+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:27:29.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.104 seconds
+[2024-02-13T12:28:00.954+0000] {processor.py:161} INFO - Started process (PID=1937) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:28:00.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:28:00.957+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:28:00.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:28:00.968+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:28:00.989+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:28:00.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:28:01.012+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:28:01.012+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:28:01.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.081 seconds
+[2024-02-13T12:28:31.118+0000] {processor.py:161} INFO - Started process (PID=1993) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:28:31.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:28:31.120+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:28:31.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:28:31.128+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:28:31.148+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:28:31.148+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:28:31.172+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:28:31.172+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:28:31.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.076 seconds
+[2024-02-13T12:29:01.365+0000] {processor.py:161} INFO - Started process (PID=2049) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:29:01.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:29:01.367+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:29:01.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:29:01.378+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:29:01.399+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:29:01.399+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:29:01.425+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:29:01.425+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:29:01.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.081 seconds
+[2024-02-13T12:29:31.945+0000] {processor.py:161} INFO - Started process (PID=2105) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:29:31.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:29:31.948+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:29:31.948+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:29:31.956+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:29:31.973+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:29:31.973+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:29:31.997+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:29:31.997+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:29:32.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.073 seconds
+[2024-02-13T12:30:02.276+0000] {processor.py:161} INFO - Started process (PID=2161) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:30:02.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:30:02.282+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:30:02.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:30:02.291+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:30:02.310+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:30:02.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:30:02.334+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:30:02.334+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:30:02.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.080 seconds
+[2024-02-13T12:30:32.599+0000] {processor.py:161} INFO - Started process (PID=2217) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:30:32.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:30:32.603+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:30:32.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:30:32.612+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:30:32.630+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:30:32.629+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:30:32.653+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:30:32.652+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:30:32.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.078 seconds
+[2024-02-13T12:31:03.161+0000] {processor.py:161} INFO - Started process (PID=2273) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:31:03.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:31:03.164+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:31:03.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:31:03.171+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:31:03.188+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:31:03.188+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:31:03.211+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:31:03.211+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:31:03.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.071 seconds
+[2024-02-13T12:31:33.670+0000] {processor.py:161} INFO - Started process (PID=2329) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:31:33.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:31:33.672+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:31:33.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:31:33.689+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:31:33.726+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:31:33.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:31:33.775+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:31:33.775+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:31:33.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.154 seconds
+[2024-02-13T12:32:04.069+0000] {processor.py:161} INFO - Started process (PID=2386) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:04.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:32:04.072+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:04.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:04.092+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:04.119+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:04.118+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:32:04.147+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:04.146+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 12:30:00+00:00, run_after=2024-02-15 12:40:00+00:00
+[2024-02-13T12:32:04.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.101 seconds
+[2024-02-13T12:32:15.939+0000] {processor.py:161} INFO - Started process (PID=2406) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:15.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:32:15.941+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:15.941+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:15.952+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:16.226+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:16.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:32:16.249+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:16.249+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:32:16.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.333 seconds
+[2024-02-13T12:32:46.364+0000] {processor.py:161} INFO - Started process (PID=2458) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:46.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:32:46.366+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:46.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:46.373+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:32:46.398+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:46.397+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:32:46.434+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:32:46.434+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:32:46.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.096 seconds
+[2024-02-13T12:33:16.704+0000] {processor.py:161} INFO - Started process (PID=2515) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:33:16.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:33:16.707+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:33:16.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:33:16.716+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:33:16.734+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:33:16.734+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:33:16.757+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:33:16.757+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:33:16.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.073 seconds
+[2024-02-13T12:33:47.139+0000] {processor.py:161} INFO - Started process (PID=2571) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:33:47.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:33:47.142+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:33:47.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:33:47.149+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:33:47.334+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:33:47.334+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:33:47.375+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:33:47.375+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:33:47.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.262 seconds
+[2024-02-13T12:34:18.210+0000] {processor.py:161} INFO - Started process (PID=2627) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:34:18.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:34:18.214+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:34:18.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:34:18.232+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:34:18.260+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:34:18.260+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:34:18.301+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:34:18.301+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:34:18.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.114 seconds
+[2024-02-13T12:34:48.427+0000] {processor.py:161} INFO - Started process (PID=2683) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:34:48.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:34:48.429+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:34:48.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:34:48.440+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:34:48.465+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:34:48.465+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:34:48.491+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:34:48.491+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:34:48.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.085 seconds
+[2024-02-13T12:35:18.636+0000] {processor.py:161} INFO - Started process (PID=2740) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:35:18.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:35:18.640+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:35:18.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:35:18.652+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:35:18.673+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:35:18.672+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:35:18.697+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:35:18.697+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:35:18.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.084 seconds
+[2024-02-13T12:35:48.832+0000] {processor.py:161} INFO - Started process (PID=2796) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:35:48.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:35:48.835+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:35:48.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:35:48.846+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:35:48.864+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:35:48.864+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:35:48.890+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:35:48.890+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:35:48.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.083 seconds
+[2024-02-13T12:36:18.933+0000] {processor.py:161} INFO - Started process (PID=2853) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:36:18.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:36:18.935+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:36:18.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:36:18.945+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:36:18.968+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:36:18.968+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:36:18.993+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:36:18.993+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:36:19.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.081 seconds
+[2024-02-13T12:36:49.219+0000] {processor.py:161} INFO - Started process (PID=2909) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:36:49.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:36:49.223+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:36:49.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:36:49.233+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:36:49.254+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:36:49.254+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:36:49.281+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:36:49.281+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:36:49.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.088 seconds
+[2024-02-13T12:37:19.323+0000] {processor.py:161} INFO - Started process (PID=2965) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:37:19.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:37:19.324+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:37:19.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:37:19.331+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:37:19.349+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:37:19.349+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:37:19.372+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:37:19.372+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:37:19.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.070 seconds
+[2024-02-13T12:37:49.572+0000] {processor.py:161} INFO - Started process (PID=3020) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:37:49.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:37:49.575+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:37:49.575+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:37:49.585+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:37:49.606+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:37:49.606+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:37:49.633+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:37:49.632+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:37:49.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.082 seconds
+[2024-02-13T12:38:20.302+0000] {processor.py:161} INFO - Started process (PID=3076) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:38:20.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:38:20.307+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:38:20.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:38:20.318+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:38:20.340+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:38:20.339+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:38:20.364+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:38:20.364+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:38:20.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.085 seconds
+[2024-02-13T12:38:50.563+0000] {processor.py:161} INFO - Started process (PID=3132) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:38:50.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:38:50.566+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:38:50.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:38:50.581+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:38:50.609+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:38:50.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:38:50.643+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:38:50.643+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:38:50.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.113 seconds
+[2024-02-13T12:39:21.645+0000] {processor.py:161} INFO - Started process (PID=3189) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:39:21.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:39:21.647+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:39:21.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:39:21.660+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:39:21.683+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:39:21.683+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:39:21.724+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:39:21.724+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:39:21.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.107 seconds
+[2024-02-13T12:39:52.058+0000] {processor.py:161} INFO - Started process (PID=3245) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:39:52.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:39:52.061+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:39:52.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:39:52.072+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:39:52.093+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:39:52.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:39:52.118+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:39:52.118+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:39:52.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.083 seconds
+[2024-02-13T12:40:22.301+0000] {processor.py:161} INFO - Started process (PID=3301) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:40:22.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:40:22.306+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:40:22.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:40:22.318+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:40:22.339+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:40:22.339+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:40:22.363+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:40:22.362+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:40:22.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.085 seconds
+[2024-02-13T12:40:52.906+0000] {processor.py:161} INFO - Started process (PID=3357) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:40:52.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:40:52.909+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:40:52.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:40:52.918+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:40:52.937+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:40:52.936+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:40:52.961+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:40:52.960+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:40:52.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.077 seconds
+[2024-02-13T12:41:23.429+0000] {processor.py:161} INFO - Started process (PID=3414) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:41:23.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:41:23.433+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:41:23.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:41:23.443+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:41:23.467+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:41:23.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:41:23.494+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:41:23.494+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:41:23.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.089 seconds
+[2024-02-13T12:41:53.829+0000] {processor.py:161} INFO - Started process (PID=3470) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:41:53.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:41:53.833+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:41:53.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:41:53.855+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:41:53.892+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:41:53.892+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:41:53.953+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:41:53.953+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:41:53.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.165 seconds
+[2024-02-13T12:42:24.221+0000] {processor.py:161} INFO - Started process (PID=3526) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:42:24.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:42:24.227+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:42:24.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:42:24.240+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:42:24.281+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:42:24.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:42:24.321+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:42:24.321+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:42:24.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.135 seconds
+[2024-02-13T12:42:54.984+0000] {processor.py:161} INFO - Started process (PID=3582) to work on /opt/airflow/dags/baserow.py
+[2024-02-13T12:42:54.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/baserow.py for tasks to queue
+[2024-02-13T12:42:54.988+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:42:54.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/baserow.py
+[2024-02-13T12:42:55.010+0000] {processor.py:840} INFO - DAG(s) 'baserowdata' retrieved from /opt/airflow/dags/baserow.py
+[2024-02-13T12:42:55.061+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:42:55.060+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T12:42:55.123+0000] {logging_mixin.py:188} INFO - [2024-02-13T12:42:55.122+0000] {dag.py:3823} INFO - Setting next_dagrun for baserowdata to 2024-02-15 15:40:00+00:00, run_after=2024-02-15 15:50:00+00:00
+[2024-02-13T12:42:55.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/baserow.py took 0.183 seconds

@@ -1,0 +1,244 @@
+[2024-02-13T12:12:27.993+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: baserowdata.consumer_task scheduled__2024-02-12T00:30:00+00:00 [queued]>
+[2024-02-13T12:12:28.022+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: baserowdata.consumer_task scheduled__2024-02-12T00:30:00+00:00 [queued]>
+[2024-02-13T12:12:28.024+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-02-13T12:12:28.116+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): consumer_task> on 2024-02-12 00:30:00+00:00
+[2024-02-13T12:12:28.202+0000] {standard_task_runner.py:60} INFO - Started process 105 to run task
+[2024-02-13T12:12:28.222+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'baserowdata', 'consumer_task', 'scheduled__2024-02-12T00:30:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/consumer_dag.py', '--cfg-path', '/tmp/tmpvz0tg7gs']
+[2024-02-13T12:12:28.245+0000] {standard_task_runner.py:88} INFO - Job 9: Subtask consumer_task
+[2024-02-13T12:12:28.684+0000] {task_command.py:423} INFO - Running <TaskInstance: baserowdata.consumer_task scheduled__2024-02-12T00:30:00+00:00 [running]> on host b9c9154d9bc2
+[2024-02-13T12:12:29.490+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='baserowdata' AIRFLOW_CTX_TASK_ID='consumer_task' AIRFLOW_CTX_EXECUTION_DATE='2024-02-12T00:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-12T00:30:00+00:00'
+[2024-02-13T12:12:30.869+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:31.655+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:32.421+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:33.345+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:34.058+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:34.841+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:35.673+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:37.367+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:38.002+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:38.701+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:39.598+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:40.100+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:40.862+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:41.474+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:42.044+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:42.760+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:43.270+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:43.967+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:44.633+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:45.263+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:45.906+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:46.588+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:47.138+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:47.657+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:48.198+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:48.690+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:49.300+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:49.911+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:51.523+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:52.065+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:53.290+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:53.951+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:54.525+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:54.976+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:55.440+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:55.911+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:56.451+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:56.937+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:57.462+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:58.093+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:59.077+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:00.153+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:00.785+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:01.577+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:02.352+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:03.039+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:03.054+0000] {logging_mixin.py:188} INFO - CSV dosyasında veri bulunmuyor. 10 dakika sonra tekrar kontrol edilecek.
+[2024-02-13T12:13:03.054+0000] {logging_mixin.py:188} INFO - CSV dosyasında veri bulunmuyor. 10 dakika sonra tekrar kontrol edilecek.
+[2024-02-13T12:13:03.680+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:04.336+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:05.527+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:06.753+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:07.411+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:07.988+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:08.809+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:09.517+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:10.122+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:10.871+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:11.522+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:12.097+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:12.788+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:14.355+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:14.913+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:15.516+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:15.993+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:16.631+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:17.176+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:17.974+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:18.686+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:19.169+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:19.693+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:20.163+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:20.629+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:21.097+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:21.705+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:22.478+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:23.087+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:23.932+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:24.670+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:25.680+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:26.793+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:28.212+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:30.565+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:31.574+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:32.562+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:33.814+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:35.266+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:36.363+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:37.194+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:38.133+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:38.892+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:39.735+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:40.232+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:40.722+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:41.215+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:41.815+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:42.337+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:42.945+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:43.939+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:44.796+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:45.560+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:46.161+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:46.721+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:47.472+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:48.208+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:48.810+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:49.480+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:50.330+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:51.165+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:51.531+0000] {logging_mixin.py:188} INFO - İstek başarısız. HTTP yanıt kodu: 429
+[2024-02-13T12:13:51.532+0000] {logging_mixin.py:188} INFO - {"detail":"Request was throttled. Expected available in 29 seconds."}
+[2024-02-13T12:13:52.202+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:52.736+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:53.020+0000] {logging_mixin.py:188} INFO - İstek başarısız. HTTP yanıt kodu: 429
+[2024-02-13T12:13:53.021+0000] {logging_mixin.py:188} INFO - {"detail":"Request was throttled. Expected available in 29 seconds."}
+[2024-02-13T12:13:53.741+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:54.353+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:54.891+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:55.553+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:56.137+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:56.894+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:57.701+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:58.092+0000] {logging_mixin.py:188} INFO - İstek başarısız. HTTP yanıt kodu: 429
+[2024-02-13T12:13:58.093+0000] {logging_mixin.py:188} INFO - {"detail":"Request was throttled. Expected available in 29 seconds."}
+[2024-02-13T12:13:58.660+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:59.208+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:13:59.727+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:00.318+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:00.945+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:01.689+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:02.481+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:03.672+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:04.202+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:04.787+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:05.198+0000] {logging_mixin.py:188} INFO - İstek başarısız. HTTP yanıt kodu: 429
+[2024-02-13T12:14:05.198+0000] {logging_mixin.py:188} INFO - {"detail":"Request was throttled. Expected available in 29 seconds."}
+[2024-02-13T12:14:05.828+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:06.632+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:08.294+0000] {logging_mixin.py:188} INFO - İstek başarısız. HTTP yanıt kodu: 429
+[2024-02-13T12:14:08.295+0000] {logging_mixin.py:188} INFO - {"detail":"Request was throttled. Expected available in 29 seconds."}
+[2024-02-13T12:14:09.069+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:09.873+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:10.794+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:11.492+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:12.114+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:12.680+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:13.434+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:14.172+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:14.200+0000] {logging_mixin.py:188} INFO - CSV dosyasında veri bulunmuyor. 10 dakika sonra tekrar kontrol edilecek.
+[2024-02-13T12:14:14.201+0000] {logging_mixin.py:188} INFO - CSV dosyasında veri bulunmuyor. 10 dakika sonra tekrar kontrol edilecek.
+[2024-02-13T12:14:14.202+0000] {logging_mixin.py:188} INFO - CSV dosyasında veri bulunmuyor. 10 dakika sonra tekrar kontrol edilecek.
+[2024-02-13T12:14:14.202+0000] {logging_mixin.py:188} INFO - CSV dosyasında veri bulunmuyor. 10 dakika sonra tekrar kontrol edilecek.
+[2024-02-13T12:14:14.961+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:15.522+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:16.145+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:16.954+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:17.656+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:18.214+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:18.729+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:19.024+0000] {logging_mixin.py:188} INFO - İstek başarısız. HTTP yanıt kodu: 429
+[2024-02-13T12:14:19.024+0000] {logging_mixin.py:188} INFO - {"detail":"Request was throttled. Expected available in 29 seconds."}
+[2024-02-13T12:14:19.663+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:20.282+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:20.851+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:21.779+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:22.637+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:23.245+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:24.032+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:24.664+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:25.857+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:26.458+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:27.039+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:27.651+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:28.186+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:28.509+0000] {logging_mixin.py:188} INFO - İstek başarısız. HTTP yanıt kodu: 429
+[2024-02-13T12:14:28.509+0000] {logging_mixin.py:188} INFO - {"detail":"Request was throttled. Expected available in 29 seconds."}
+[2024-02-13T12:14:29.143+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:29.729+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:30.335+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:14:30.562+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-02-13T12:14:30.571+0000] {process_utils.py:131} INFO - Sending 15 to group 105. PIDs of all processes in the group: [105]
+[2024-02-13T12:14:30.572+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 105
+[2024-02-13T12:14:30.573+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-02-13T12:14:30.586+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/consumer_dag.py", line 57, in main
+    add_row_to_baserow(record, token)
+  File "/opt/airflow/dags/consumer_dag.py", line 16, in add_row_to_baserow
+    response = requests.post(
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.8/ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-02-13T12:14:30.593+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=baserowdata, task_id=consumer_task, execution_date=20240212T003000, start_date=20240213T121227, end_date=20240213T121430
+[2024-02-13T12:14:30.611+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 9 for task consumer_task ((psycopg2.errors.ForeignKeyViolation) insert or update on table "task_fail" violates foreign key constraint "task_fail_ti_fkey"
+DETAIL:  Key (dag_id, task_id, run_id, map_index)=(baserowdata, consumer_task, scheduled__2024-02-12T00:30:00+00:00, -1) is not present in table "task_instance".
+
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (%(task_id)s, %(dag_id)s, %(run_id)s, %(map_index)s, %(start_date)s, %(end_date)s, %(duration)s) RETURNING task_fail.id]
+[parameters: {'task_id': 'consumer_task', 'dag_id': 'baserowdata', 'run_id': 'scheduled__2024-02-12T00:30:00+00:00', 'map_index': -1, 'start_date': datetime.datetime(2024, 2, 13, 12, 12, 27, 994555, tzinfo=Timezone('UTC')), 'end_date': datetime.datetime(2024, 2, 13, 12, 14, 30, 592700, tzinfo=Timezone('UTC')), 'duration': 122}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 105)
+[2024-02-13T12:14:30.626+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=105, status='terminated', exitcode=1, started='12:12:28') (105) terminated with exit code 1

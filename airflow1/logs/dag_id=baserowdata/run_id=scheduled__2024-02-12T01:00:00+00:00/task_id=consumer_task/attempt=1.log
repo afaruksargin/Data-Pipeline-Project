@@ -1,0 +1,35 @@
+[2024-02-13T12:12:28.070+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: baserowdata.consumer_task scheduled__2024-02-12T01:00:00+00:00 [queued]>
+[2024-02-13T12:12:28.257+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: baserowdata.consumer_task scheduled__2024-02-12T01:00:00+00:00 [queued]>
+[2024-02-13T12:12:28.257+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-02-13T12:12:28.516+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): consumer_task> on 2024-02-12 01:00:00+00:00
+[2024-02-13T12:12:28.620+0000] {standard_task_runner.py:60} INFO - Started process 107 to run task
+[2024-02-13T12:12:28.657+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'baserowdata', 'consumer_task', 'scheduled__2024-02-12T01:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/consumer_dag.py', '--cfg-path', '/tmp/tmpoiw_cxsl']
+[2024-02-13T12:12:28.704+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask consumer_task
+[2024-02-13T12:12:29.153+0000] {task_command.py:423} INFO - Running <TaskInstance: baserowdata.consumer_task scheduled__2024-02-12T01:00:00+00:00 [running]> on host b9c9154d9bc2
+[2024-02-13T12:12:30.255+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='baserowdata' AIRFLOW_CTX_TASK_ID='consumer_task' AIRFLOW_CTX_EXECUTION_DATE='2024-02-12T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-12T01:00:00+00:00'
+[2024-02-13T12:12:31.379+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:32.410+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:33.330+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:35.110+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:35.714+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:36.326+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:37.077+0000] {logging_mixin.py:188} INFO - İstek başarılı.
+[2024-02-13T12:12:37.081+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/consumer_dag.py", line 66, in main
+    writer.writerows(rows)
+  File "/usr/local/lib/python3.8/csv.py", line 157, in writerows
+    return self.writer.writerows(map(self._dict_to_list, rowdicts))
+  File "/usr/local/lib/python3.8/csv.py", line 149, in _dict_to_list
+    raise ValueError("dict contains fields not in fieldnames: "
+ValueError: dict contains fields not in fieldnames: None
+[2024-02-13T12:12:37.096+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=baserowdata, task_id=consumer_task, execution_date=20240212T010000, start_date=20240213T121228, end_date=20240213T121237
+[2024-02-13T12:12:37.124+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 11 for task consumer_task (dict contains fields not in fieldnames: None; 107)
+[2024-02-13T12:12:37.166+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-13T12:12:37.213+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
