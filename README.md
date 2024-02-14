@@ -1,6 +1,6 @@
 # DataProjectPipeline
 
-![Hareketli Resim]([/home/user/İndirilenler/DAG.gif](https://github.com/afaruksargin/DataProjectPipeline/issues/1#issue-2133722529))
+![Hareketli Resim](https://github.com/afaruksargin/DataProjectPipeline/issues/1#issue-2133722529)
 
 # Airflow Kafka PostgreSQL Pipeline
 
